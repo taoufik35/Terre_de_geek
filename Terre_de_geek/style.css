@@ -5,6 +5,7 @@ body{
   background-image : url("background_3.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed;
 
 
 }
@@ -71,6 +72,7 @@ nav a{
 }
 
 /*----------------------------------------style body page---------------------------------*/
+
 .ordi2{
   text-align: justify;
   color: #fff;;
@@ -80,6 +82,7 @@ nav a{
 .ordi3{
   color: red;
   font-size: 3em;
+  margin-top: 100px;
 
 }
 .ordi1{
@@ -111,6 +114,7 @@ nav a{
 .tele3{
   color: red;
   font-size: 3em;
+  margin-top: 30px;
 
 }
 .tele1{
@@ -138,6 +142,7 @@ nav a{
 .imp3{
   color: red;
   font-size: 3em;
+  margin-top: 100px;
 
 }
 .imp1{
@@ -171,7 +176,18 @@ nav a{
   display: flex;
   justify-content: space-around;
 }
-
+.h2_accueil{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 90px;
+  background-image: url("backgound.jpg");
+  color:#fff;
+  border-radius: 15px;
+  color: black;
+  
+  
+  
+}
 
 
 
