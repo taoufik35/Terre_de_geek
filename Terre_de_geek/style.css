@@ -1,3 +1,5 @@
+
+/*--------------------body style--------------------------------*/
 body{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-image : url("background_3.png");
@@ -6,13 +8,15 @@ body{
 
 
 }
+/*-----------------------------header style-------------------------*/
+
 
 header
 {
   display: flex;
   flex-direction: column;
   align-items: center;
- ;
+ 
 }
 
 .image{
@@ -34,11 +38,8 @@ header
   min-width: 0px;
 }
 
-.Mention{
-  display: flex;
-  flex-direction: row;
 
-}
+/*--------------------------------------navigation menu--------------------------------*/
 
 nav{
   width: 100%;
@@ -67,4 +68,118 @@ nav a{
 .table{
   display: flex;
   justify-content: space-around;
+}
+
+/*----------------------------------------style body page---------------------------------*/
+.ordi2{
+  text-align: justify;
+  color: #fff;;
+  border: 1px solid none;
+  width: 300px;
+}
+.ordi3{
+  color: red;
+  font-size: 3em;
+
+}
+.ordi1{
+  width: 100%;
+  background-color: #424558;
+  padding-bottom: 15px;
+
+}
+.ordi{
+  text-align: center;
+
+}
+
+.ordinateur{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 310px;
+  background-image: url("backgound.jpg");
+  text-align: center;
+  
+}
+
+.tele2{
+  text-align: justify;
+  color: #fff;;
+  border: 1px solid none;
+  width: 300px;
+}
+.tele3{
+  color: red;
+  font-size: 3em;
+
+}
+.tele1{
+  width: 100%;
+  background-color: #424558;
+  padding-bottom: 15px;
+
+}
+
+.television{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 310px;
+  background-image: url("backgound.jpg");
+  text-align: center;
+  padding-top: 30px;
+  
+}
+.imp2{
+  text-align: justify;
+  color: #fff;;
+  border: 1px solid none;
+  width: 300px;
+}
+.imp3{
+  color: red;
+  font-size: 3em;
+
+}
+.imp1{
+  width: 100%;
+  background-color: #424558;
+  padding-bottom: 15px;
+
+}
+.imprimante{
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 310px;
+  background-image: url("backgound.jpg");
+  text-align: center;
+  
+}
+.imprimante a {
+  text-decoration: none;
+  color: black ;
+}
+.television a {
+  text-decoration: none;
+  color: black ;
+}
+.ordinateur a {
+  text-decoration: none;
+  color: black ;
+  
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+
+
+/*------------------------------------------------footer style----------------------*/
+.Mention{
+  display: flex;
+  flex-direction: row;
 }
