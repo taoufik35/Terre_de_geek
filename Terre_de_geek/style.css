@@ -71,9 +71,47 @@ nav a{
   display: flex;
   justify-content: space-around;
 }
+.acc :hover{
+  border-top: 5px solid #36c7e0;
+  background-color: rgba(43, 231, 216, 0.15);
+}
+.prod1 :hover{
+  border-top: 5px solid #36c7e0;
+  background-color: rgba(43, 231, 216, 0.15);
+}
+.prod2 :hover{
+  border-top: 5px solid #36c7e0;
+  background-color: rgba(43, 231, 216, 0.15);
+}
+.prod3 :hover{
+  border-top: 5px solid #36c7e0;
+  background-color: rgba(43, 231, 216, 0.15);
+}
+.his :hover{
+  border-top: 5px solid #36c7e0;
+  background-color: rgba(43, 231, 216, 0.15);
+}
+.ment :hover{
+  border-top: 5px solid #36c7e0;
+  background-color: rgba(43, 231, 216, 0.15);
+}
+nav li:hover a{
+  padding: 15px 30px 20px 30px;
+}
 
 /*----------------------------------------style body page---------------------------------*/
 
+.h2_accueil{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 90px;
+  background-image: url("backgound.jpg");
+  color:#fff;
+  border-radius: 15px;
+  color: black;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 .ordi2{
   text-align: justify;
   color: #fff;;
@@ -177,14 +215,28 @@ nav a{
   display: flex;
   justify-content: space-around;
 }
-.h2_accueil{
-  font-size: 2em;
+.para{
   text-align: center;
-  margin-bottom: 90px;
-  background-image: url("backgound.jpg");
-  color:#fff;
+  border: 3px solid none;
+  padding: 10px;
+  /*margin: 20px auto;
+  width: 50%;*/
   border-radius: 15px;
-  color: black;
+  font-size: 1.5em;
+  background-color: #424558;
+  opacity: 0.90;
+  color: red;
+  margin-top: 1em;
+  font-weight: bold; 
+}
+.paragraphe{
+  margin: 20px auto;
+  width: 60%;
+  padding: 50px;
+  border: 10px solid none;
+  background-image: url("backgound.jpg");
+  border-radius: 10px;
+  margin-top: 3em;
 }
 
 
@@ -193,7 +245,39 @@ nav a{
 
 
 /*------------------------------------------------footer style----------------------*/
-.Mention{
+.Mention p{
+  text-align: center;
+  border: 3px solid none;
+  padding: auto;
+  margin-right: 20%;
+  background-color: #424558 ;
+  color: black;
+  border-radius: 10px;
+  padding: 10px 10px 10px 10px;
+  margin-top: 0.1%;
+  
+}
+.Mention h3{
+  border: 3px solid none;
+  padding: auto;
+  background-color: #424558 ;
+  margin-right: 20%;
+  text-align: center;
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+footer{
   display: flex;
-  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.pmention{
+ font-size: 2em;
+}
+.pmention a{
+  text-decoration: none;
+  color: #36c7e0;
+
 }
