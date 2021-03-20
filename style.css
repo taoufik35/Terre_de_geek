@@ -21,7 +21,8 @@ header
 }
 
 .image{
-  align-self: flex-start;
+  text-align: center;
+  margin: 20px;
   
  
 }
@@ -184,9 +185,6 @@ nav a{
   color:#fff;
   border-radius: 15px;
   color: black;
-  
-  
-  
 }
 
 
