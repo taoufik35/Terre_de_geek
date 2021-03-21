@@ -34,13 +34,11 @@
     
 
    <!--make a picture of computer product with its description--> 
-
-    <div class="ordinateur_2"> 
-      <h2>ORDINATEUR ASUS GAMING</h2><br/>
-
+    <div class="titletext"><h2>ORDINATEUR ASUS GAMING</h2><br/></div>
+    <div class="formtext"> 
       <figure> 
-      <img src="ordinateur_2.png" alt="ordinateur page produit"><br/>
-         <figcaption>1499.99€</figcaption>
+        <img src="ordinateur_2.png" alt="ordinateur page produit"><br/>
+         <figcaption class="prix">1499.99€/TTC</figcaption>
       </figure>
       <!--a small description of the product-->  
         <p>Le TUF Gaming A15 renferme un arsenal de caractéristiques matérielles et logicielles qui vous assure une durabilité à toute épreuve<br/>
@@ -53,11 +51,11 @@
         </p>
     </div>
     <!--product feature-->
-    <div class="caracteristique">
-          <p><h2>Caractéristiques produit</h2>
-            
-            Usage : Gamer
-              <h3>Moniteur</h3><br/>
+          <div class="caracteristique">
+            <p class="cara">
+                <strong>Caracteristique produit</strong><br/><br/>
+                <strong> Usage : Gamer</strong><br/><br/>
+                <strong>Moniteur</strong><br/>
                 Taille de l'écran : 15,6 pouces<br/>
                 Equivalence : 39,6 cm<br/>
                 Ecran tactile : Non<br/>
@@ -72,10 +70,10 @@
                 Logiciels<br/>
                 Système d'exploitation : Windows 10<br/>
             
-              <h3>Applications</h3><br/>
+                <strong>Applications</strong><br/>
                 Autre : 1 mois d'abonnement Xbox Game Pass inclus à l'achat de l'appareil<br/>
             
-              <h3>Processeur (CPU)</h3><br/>
+                <strong>Processeur (CPU)</strong><br/>
             
                 Fréquence en Hz : 3
                 Référence et spécificités : AMD Ryzen 9 - 4900H : 3 Ghz Turbo 4,4 Ghz 8 Mo de mémoire cache<br/>
@@ -85,7 +83,7 @@
                 Compatible VR : HTC VIVE et Windows Mixed Reality<br/>
                 Type de carte : Nvidia GeForce RTX<br/>
             
-              <h3>Mémoire vive</h3><br/>
+                <strong>Mémoire vive</strong><br/>
             
                 Capacité totale : 16 Go<br/>
                 Type : DDR4<br/>
@@ -97,7 +95,7 @@
                 Lecteur / Graveur<br/>
                 Type : Pas de lecteur-graveur<br/>
             
-              <h3>Connexion</h3><br/>
+                <strong>Connexion</strong><br/>
             
                 Carte réseau filaire : Vitesse 10/100/1000 Mbps<br/>
                 Wifi (+ d'infos) : 802.11 ac<br/>
@@ -113,7 +111,7 @@
                 Connectique(s) spécifique(s)<br/>
                 Sortie HDMI 2.0 : 1<br/>
             
-              <h3>Alimentation</h3><br/>
+                <strong>Alimentation</strong><br/>
             
                 Autonomie (donnée constructeur) (+ d'infos) : Jusqu'à 6 heures 30
                 Equipement(s)<br/>
@@ -122,9 +120,8 @@
                 Pavé numérique : Intégré au clavier<br/>
                 Fabriqué en : Chine
                 Assemblé en : Chine
-          </p>
-
-    </div>
+            </p>
+         </div>
     
 
 
@@ -133,26 +130,29 @@
 
 
       <!--add footer of the site with legal mention,logo and head office address-->
-    <footer  class="FOOT">
-      <P class="Mention"><h3> MENTIONS LEGALES</h3><br/>
-        <strong>TERRE DE GEEK </strong>SARL, Société A Responsabilité Limité au capital de 611 564 €, dont le siège social est : Avenue de la motte, 27229 Evreux, immatriculée au Registre du Commerce et des Sociétés de ROUEN sous le n° B 347 384 570.
-        N° SIRET : 347 384 570 02015. N° T.V.A Intracommunautaire FR 78 347 384 570.
-        Web : www.Terre_de_Geek.com
-        
-        TERRE DE GEEK SARL est représenté par M Hervé DERMAIN en qualité de directeur général délégué et directeur de la publication. Contact du centre de relation client.
-          <a href="mention_legale.html">mention legale</a></P><br />
-
-        <p>
-          <img src="logo_small.png" alt="logo du site" height="150px"><br />
+      <footer>
+    
+        <div class="Mention">
+          <h3> MENTIONS LEGALES</h3>
+         <p> <strong>TERRE DE GEEK </strong>SARL, Société A Responsabilité Limité au capital de 611 564 €, dont le siège social est : Avenue de la motte, 27229 Evreux,<br/> immatriculée au Registre du Commerce et des Sociétés de ROUEN sous le n° B 347 384 570.
+          N° SIRET : 347 384 570 02015. <br/>N° T.V.A Intracommunautaire FR 78 347 384 570.
+          Web : www.Terre_de_Geek.com<br/>
+          
+          TERRE DE GEEK SARL est représenté par M Hervé DERMAIN en qualité de directeur général délégué et directeur de la publication.
+            <a href="mention_legale.html">mention legale</a></P><br /></div>
+  
+        <div class="pmention">
+          <p><img src="logo_small.png" alt="logo du site" height="100px"><br />
           <strong>TERRE DE GEEK</strong><br />
           20 Avenue de la motte<br />
           27229 Evreux<br />
           Tél : 02 76 67 14 90<br />
           <a href="mailto:voutib@gmail.com">Nous contacter</a>
-        </p>
-
-
-    </footer>
+          </p>
+      </div>
+  
+  
+      </footer>
 </body>
 
  
